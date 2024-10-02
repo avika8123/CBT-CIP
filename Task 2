@@ -1,0 +1,97 @@
+PORTFOLIO 
+//HTML CODE//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <img src="367.jpg" alt="Your Photo" class="profile-pic">
+            <h1>Hello, I'm Avika!</h1>
+            <p>Welcome to my portfolio. I am a final year ECE student with a passion for technology and innovation.</p>
+        </div>
+    </header>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: avika765@gmail.com</p>
+        <p>Phone: 9878246531</p>
+        <p>LinkedIn: <a href="your-linkedin-profile">avika 667linkedin.com/in/yourname</a></p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>C Programming</li>
+            <li>Leadership & Teamwork</li>
+        </ul>
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="resume.pdf" download>here</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Avika's Portfolio</p>
+    </footer>
+</body>
+</html>
+
+    //CSS CODE //
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.contact-info, .skills, .resume {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
